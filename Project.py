@@ -7,8 +7,8 @@ b=0
 
 def taketime():
     global a,b
-    a = datetime.datetime.now
-    b = datetime.datetime.now
+    a = datetime.datetime.now()
+    b = datetime.datetime.now()
 
 root = Tk()
 root.geometry("1280x1024")
